@@ -1,15 +1,14 @@
 <?php
 /*
 * Plugin Name: Researcher Profiles - Manage Academic Social Links
-* Plugin URI: https://github.com/yysofiyan
+* Plugin URI: https://github.com/yysofiyan/Researcher-Profiles
 * Author: Yanyan Sofiyan
 * Author URI: https://github.com/yysofiyan
 * Description: WordPress plugin designed to make it easier for academics and researchers to manage and present their profiles professionally. With this plugin, users can easily add, edit and organize their academic social links, such as Scopus, Google Scholar, ORCID, Wos profiles and more.
-* Text Domain: researcher-profiles
-* License: GPLv3
+* Text Domain: researcher -profiles
+* License: https://www.gnu.org/licenses/gpl-3.0.html
 * Version: 1.1
 * Requires PHP: 7.4 
-* Requires at least: WordPress 5.8
 * Tested up to: WordPress 6.7
 *
 */
