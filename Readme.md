@@ -1,3 +1,13 @@
+![cover](https://i.imgur.com/UN7lWaI.png)
+
+
+[![stars - Researcher-Profiles](https://img.shields.io/github/stars/yysofiyan/Researcher-Profiles?style=social)](https://github.com/yysofiyan/Researcher-Profiles)
+[![forks - Researcher-Profiles](https://img.shields.io/github/forks/yysofiyan/Researcher-Profiles?style=social)](https://github.com/yysofiyan/Researcher-Profiles)
+
+[![GitHub tag](https://img.shields.io/github/tag/yysofiyan/Researcher-Profiles?include_prereleases=&sort=semver&color=blue)](https://github.com/yysofiyan/Researcher-Profiles/releases/)
+[![License](https://img.shields.io/badge/License-GPL--3.0_license-blue)](#license)
+[![issues - Researcher-Profiles](https://img.shields.io/github/issues/yysofiyan/Researcher-Profiles)](https://github.com/yysofiyan/Researcher-Profiles/issues)
+
 # Overview
 
 `Researcher Profiles - Manage Academic Social Links` is a `WordPress plugin` designed to make it easier for academics and researchers to manage and present their profiles professionally. With this plugin, users can easily add, edit, and organize their academic social links, such as Google Scholar, Scopus, ORCID profiles, and more.
@@ -44,16 +54,3 @@ The frontend appearance can be customized through the **assets/css/styles.css** 
 
 ## ISSUE
 If you run into a problem, share your problem on the issue tracker. [issue tracker](https://github.com/yysofiyan/Researcher-Profiles/issues)
-
-[![yysofiyan - Researcher-Profiles](https://img.shields.io/static/v1?label=yysofiyan&message=Researcher-Profiles&color=blue&logo=github)](https://github.com/yysofiyan/Researcher-Profiles "Go to GitHub repo")
-[![stars - Researcher-Profiles](https://img.shields.io/github/stars/yysofiyan/Researcher-Profiles?style=social)](https://github.com/yysofiyan/Researcher-Profiles)
-[![forks - Researcher-Profiles](https://img.shields.io/github/forks/yysofiyan/Researcher-Profiles?style=social)](https://github.com/yysofiyan/Researcher-Profiles)
-
-[![GitHub tag](https://img.shields.io/github/tag/yysofiyan/Researcher-Profiles?include_prereleases=&sort=semver&color=blue)](https://github.com/yysofiyan/Researcher-Profiles/releases/)
-[![License](https://img.shields.io/badge/License-GPL--3.0_license-blue)](#license)
-[![issues - Researcher-Profiles](https://img.shields.io/github/issues/yysofiyan/Researcher-Profiles)](https://github.com/yysofiyan/Researcher-Profiles/issues)
-
-
-### Download _Plugin_ Form
-
-![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
