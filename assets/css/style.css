@@ -1,0 +1,117 @@
+/* Styling umum untuk Author Box */
+.author-box {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.author-avatar {
+    margin-right: 20px;
+}
+
+.author-avatar img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.author-info {
+    flex-grow: 1;
+}
+
+.author-info h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+.author-info p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 8px;
+}
+
+.author-social {
+    margin-top: 10px;
+    display: flex; /* Pastikan ini mengatur ikon dalam baris */
+    gap: 12px; /* Tambahkan jarak antar ikon */
+}
+
+.author-social a {
+    display: inline-block;
+}
+
+.author-social img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.author-social img:hover {
+    transform: scale(1.2);
+}
+
+/* Responsif untuk tampilan lebih kecil (Tablet dan Mobile) */
+@media (max-width: 768px) {
+    .author-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .author-avatar {
+        margin-bottom: 10px;
+    }
+
+    .author-avatar img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .author-info h3 {
+        font-size: 1.2em;
+    }
+
+    .author-info p {
+        font-size: 0.9em;
+    }
+
+    .author-social {
+        margin-top: 15px;
+        gap: 10px; /* Sesuaikan jarak untuk perangkat lebih kecil */
+    }
+
+    .author-social img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* Responsif untuk tampilan sangat kecil (Mobile) */
+@media (max-width: 480px) {
+    .author-avatar img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .author-info h3 {
+        font-size: 1.1em;
+    }
+
+    .author-info p {
+        font-size: 0.85em;
+    }
+
+    .author-social {
+        gap: 8px; /* Sesuaikan jarak untuk layar sangat kecil */
+    }
+
+    .author-social img {
+        width: 16px;
+        height: 16px;
+    }
+}
