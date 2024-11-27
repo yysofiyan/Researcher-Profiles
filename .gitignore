@@ -1,0 +1,29 @@
+# .gitignore
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore project files
+node_modules/
+build/
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore temp files
+*.tmp
+
+# Ignore config files
+.env
+
+# Ignore database files
+*.db
+
+# Ignore package files
+package-lock.json
