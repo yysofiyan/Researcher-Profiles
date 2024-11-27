@@ -1,4 +1,13 @@
-/* Styling umum untuk Author Box */
+/* Menyembunyikan Author Box kedua */
+.author-box-content,
+.author-box-avatar,
+.author-box-title,
+.author-box-meta,
+section.author-box {
+    display: none !important;
+}
+
+/* Styling umum untuk Author Box pertama */
 .author-box {
     display: flex;
     align-items: center;
@@ -13,11 +22,22 @@
     margin-right: 20px;
 }
 
-.author-avatar img {
-    border-radius: 50%;
-    width: 120px;  /* Membuat foto profil lebih besar */
-    height: 120px; /* Ukuran foto disesuaikan */
+/* CSS untuk memastikan gambar avatar tidak lebih besar dari ukuran yang diinginkan */
+.author-box .author-avatar img {
+    width: 200px !important;
+    height: 200px !important;
+    max-width: 200px; /* Mengatur batasan lebar gambar */
+    max-height: 200px; /* Mengatur batasan tinggi gambar */
     object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+/* Gambar avatar kecil di artikel */
+.single .author-avatar img {
+    width: 30px !important;
+    height: 30px !important;
+    object-fit: cover !important;
 }
 
 .author-info {
@@ -25,7 +45,7 @@
 }
 
 .author-info h3 {
-    font-size: 1.2em;  /* Memperkecil ukuran nama author */
+    font-size: 1.2em;
     margin: 0;
     color: #333;
 }
@@ -38,23 +58,23 @@
 
 .author-social {
     margin-top: 10px;
-    display: flex; /* Menampilkan ikon secara horizontal */
-    gap: 15px; /* Jarak antar ikon */
-    align-items: center; /* Menjaga ikon sejajar secara vertikal */
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
 
 .author-social a {
-    display: inline-block; /* Pastikan link ikonnya tampil sebagai block-level elemen */
+    display: inline-block;
 }
 
 .author-social img {
-    width: 24px;  /* Menyesuaikan ukuran ikon sosial */
+    width: 24px;
     height: 24px;
     transition: transform 0.3s ease;
 }
 
 .author-social img:hover {
-    transform: scale(1.2); /* Efek zoom saat hover */
+    transform: scale(1.2);
 }
 
 /* Responsif untuk tampilan lebih kecil (Tablet dan Mobile) */
@@ -82,7 +102,7 @@
     }
 
     .author-social {
-        gap: 10px; /* Sesuaikan jarak untuk perangkat lebih kecil */
+        gap: 10px;
     }
 
     .author-social img {
@@ -107,7 +127,7 @@
     }
 
     .author-social {
-        gap: 8px; /* Sesuaikan jarak untuk layar sangat kecil */
+        gap: 8px;
     }
 
     .author-social img {

@@ -52,5 +52,9 @@ Overall, **ORCID**, **Google Scholar**, and **Scopus** are **academic profile li
 
 The frontend appearance can be customized through the **assets/css/styles.css** file.
 
+## Feature Requests
+
+👌 [Share ideas for new features](https://github.com/yysofiyan/Researcher-Profiles/discussions/categories/ideas)
+
 ## ISSUE
 If you run into a problem, share your problem on the issue tracker. [issue tracker](https://github.com/yysofiyan/Researcher-Profiles/issues)
