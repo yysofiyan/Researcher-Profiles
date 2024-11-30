@@ -16,6 +16,16 @@
 
 Overall, **ORCID**, **Google Scholar**, and **Scopus** are **academic profile links** or **professional networking links**. They present **scholarly credentials** and are used by **researchers** to introduce themselves, share their publications, and measure their scientific impact and influence. **Academic links** are important because they help build academic reputation and make it easier for researchers to be found in the scientific world.
 
+# Screenshots
+
+![ProfilMenu](https://i.imgur.com/ur25KGb.png)
+
+![ins](https://i.imgur.com/q5YPVRB.png)
+
+![authorboox](https://i.imgur.com/lfoQgUi.png)
+
+>Article: https://dosen-fti.unsap.ac.id/developing-the-researcher-profiles-manage-academic-social-links-plugin-for-wordpress/
+
 # Feature
 
 * **Friendly User Interface**: Easy setup with an intuitive interface for adding social links.
