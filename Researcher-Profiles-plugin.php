@@ -162,7 +162,7 @@ add_action('wp_enqueue_scripts', 'spp_enqueue_styles');
 
 //log
 // if (function_exists('spp_enqueue_custom_styles')) {
-    error_log('Fungsi spp_enqueue_custom_styles ditemukan.');
+//    error_log('Fungsi spp_enqueue_custom_styles ditemukan.');
 //} else {
-    error_log('Fungsi spp_enqueue_custom_styles tidak ditemukan.');
+//    error_log('Fungsi spp_enqueue_custom_styles tidak ditemukan.');
 //}
