@@ -16,7 +16,14 @@
 // Menambahkan field untuk link sosial media di profil
 function spp_add_social_links_fields($user) {
     ?>
-    <h3><?php esc_html_e("Researcher Profiles", "researcher-profiles"); ?></h3>
+    <h3>
+    <?php esc_html_e("Researcher Profiles", "researcher-profiles"); ?>
+</h3>
+<p>
+    <a href="https://github.com/yysofiyan/Researcher-Profiles" target="_blank" rel="noopener noreferrer">
+    Author URI: https://github.com/yysofiyan
+    </a>
+</p>
     <table class="form-table">
         <?php
         $fields = [
@@ -98,7 +105,7 @@ function spp_display_author_box($content) {
             ],
             'Publon' => [
                 'link' => get_the_author_meta('social_publon', $author_id),
-                'icon' => plugins_url('assets/icons/publon.png', __FILE__),
+                'icon' => plugins_url('assets/icons/publon.svg', __FILE__),
             ],
             'Web of Science' => [
                 'link' => get_the_author_meta('social_wos', $author_id),
