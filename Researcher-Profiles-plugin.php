@@ -5,11 +5,15 @@
 * Author: Yanyan Sofiyan
 * Author URI: https://github.com/yysofiyan
 * Description: WordPress plugin designed to make it easier for academics and researchers to manage and present their profiles professionally. With this plugin, users can easily add, edit and organize their academic social links, such as Scopus, Google Scholar, ORCID, Wos profiles and more.
+<<<<<<< HEAD
 * Text Domain: researcher-profile-manage-academic-social-links
+=======
+* Text Domain: researcher-profiles
+>>>>>>> 00f5e7b (Fix plugin metadata and improve security: update Text Domain format, sanitize user input, and use file modification time for CSS versioning)
 * License: https://www.gnu.org/licenses/gpl-3.0.html
 * Version: 1.1
-* Requires PHP: 7.4 
-* Tested up to: WordPress 6.7
+* Requires at least: 7.4 
+* Tested up to: 6.7
 *
 */
 
@@ -38,7 +42,7 @@ function spp_add_social_links_fields($user) {
         ];
 
         foreach ($fields as $key => $label) {
-            $value = esc_url(get_the_author_meta($key, $user->ID));
+            $value = esc_url_raw(get_the_author_meta($key, $user->ID));
             ?>
             <tr>
                 <th><label for="<?php echo esc_attr($key); ?>"><?php echo esc_html($label); ?></label></th>
@@ -65,7 +69,7 @@ function spp_save_social_links_fields($user_id) {
     $fields = ['social_garuda', 'social_orcid', 'social_scholar', 'social_scopus', 'social_publon', 'social_wos', 'social_github','social_sinta'];
     foreach ($fields as $field) {
         if (isset($_POST[$field])) {
-            update_user_meta($user_id, $field, esc_url_raw($_POST[$field]));
+            update_user_meta($user_id, $field, sanitize_text_field($_POST[$field]));
         }
     }
 }
@@ -130,7 +134,7 @@ function spp_display_author_box($content) {
             }
         }
 
-        $content .= '
+                $content .= '
         <div class="author-box">
             <div class="author-avatar">
                 <img src="' . esc_url($author_avatar) . '" alt="' . esc_attr($author_name) . '">
@@ -154,7 +158,12 @@ add_filter('avatar_size', function($size) {
 
 // Memuat file CSS
 function spp_enqueue_styles() {
+<<<<<<< HEAD
     wp_enqueue_style('spp-author-box-style', plugins_url('assets/css/custom-style.css', __FILE__), [], '1.1');
+=======
+    $style_path = plugin_dir_path(__FILE__) . 'style.css';
+    wp_enqueue_style('spp-author-box-style', plugins_url('style.css', __FILE__), [], filemtime($style_path));
+>>>>>>> 00f5e7b (Fix plugin metadata and improve security: update Text Domain format, sanitize user input, and use file modification time for CSS versioning)
 }
 // Pastikan fungsi enqueue dipanggil dengan benar
 add_action('wp_enqueue_scripts', 'spp_enqueue_styles');
