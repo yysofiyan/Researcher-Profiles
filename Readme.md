@@ -5,7 +5,6 @@
 [![forks - Researcher-Profiles](https://img.shields.io/github/forks/yysofiyan/Researcher-Profiles?style=social)](https://github.com/yysofiyan/Researcher-Profiles)
 
 [![GitHub tag](https://img.shields.io/github/tag/yysofiyan/Researcher-Profiles?include_prereleases=&sort=semver&color=blue)](https://github.com/yysofiyan/Researcher-Profiles/releases/)
-[![License](https://img.shields.io/badge/License-GPL--3.0_license-blue)](#license)
 [![issues - Researcher-Profiles](https://img.shields.io/github/issues/yysofiyan/Researcher-Profiles)](https://github.com/yysofiyan/Researcher-Profiles/issues)
 
 # Overview
